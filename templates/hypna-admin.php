@@ -6,6 +6,10 @@
 */
 ?>
 
+<?php 
+  $picture = esc_attr( get_option('profile_pic'));
+?>
+
 <h1>Hypnagogia Theme General Options</h1>
 <?php settings_errors(); ?>
 <form method="post" action="options.php">

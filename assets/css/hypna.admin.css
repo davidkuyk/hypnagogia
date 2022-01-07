@@ -1,0 +1,22 @@
+/*
+@package hypnagogia
+
+=====================================+
+    STYLES FOR THE THEME ADMIN AREA
+======================================
+*/
+
+.profile-pic-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

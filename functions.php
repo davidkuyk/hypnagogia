@@ -6,7 +6,8 @@
  */
 
 
-require get_template_directory() . '/inc/function-admin.php';
+require get_template_directory() . '/inc/functions-admin.php';
+require get_template_directory() . '/inc/enqueue-admin.php';
 
 // REGISTER MENUS
 
