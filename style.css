@@ -1,0 +1,66 @@
+/*
+Theme Name: Hypnagogia
+Theme URI: https://davidkuyk.com/
+Author: David Kuyk
+Author URI: https://wordpress.org/
+Description: A custom theme for my clients.
+Tags: blog
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hypnagogia
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+a {
+  color: #8a8437;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.site-logo {
+  width: 50px;
+}
+
+ul.menu-items {
+  display: flex;
+  list-style-type: none;
+}
+
+ul.menu-items li.menu-item {
+  padding: 10px;
+}
+
+ul.menu-items li.menu-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.post-result-container {
+  display: flex;
+}
+
+.post-result-container img {
+  margin-right: 20px;
+}
