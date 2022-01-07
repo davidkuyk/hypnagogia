@@ -6,6 +6,8 @@
  */
 
 
+require get_template_directory() . '/inc/function-admin.php';
+
 // REGISTER MENUS
 
 function hypna_register_my_menus() {
